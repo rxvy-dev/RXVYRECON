@@ -164,8 +164,6 @@ def menu():
 
 [+] Initializing VPN.................... [ OK ]   
     """ + RED)
-subprocess.run(['mullvad-vpn', 'protonvpn-app', 'riseup-vpn'])
-
  
 def main():
    while True:
